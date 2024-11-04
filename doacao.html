@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="style_doacoes.css">
+    <title>Doações</title>
+</head>
+<body>
+
+    <header>
+        <div id="navbar-container">
+            <div id="navbar">
+                <a href="inicial.html">Home</a>
+                <a href="voluntarios.html">Voluntários</a>
+                <a href="estoque.html">Estoque</a>
+                <a href="doacao.html">Doação</a>
+                <a href="estatistica.html">Estatística</a>
+                <a href="criancas.html">Crianças</a>
+                <a href="configuracoes.html">Configurações</a>
+                <a href="meuperfil.html">Meu perfil</a>
+                <a href="index.html">Sair</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <h2>Doações</h2>
+        
+        <section id="doacoes-info">
+            <p>Bem-vindo à nossa seção de doações! Aqui você pode ver as doações recebidas e acompanhar como você pode ajudar nossas crianças e adolescentes.</p><br><br>
+        </section>
+
+        <section id="acoes-doacoes">
+            <h3>Ações</h3>
+            <button onclick="window.location.href='cadastroDoacao.html'">Novo Cadastro</button>
+            <button>Pesquisar</button>
+            <button>Excluir Cadastro</button>
+            <button>Ver Detalhes</button>
+        </section>
+
+        <section id="tabela-doacoes">
+            
+            <h3>Tabela de Doações</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nome do Doador</th>
+                        <th>Valor</th>
+                        <th>Data</th>
+                        <th>Descrição</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>João Silva</td>
+                        <td>R$ 100,00</td>
+                        <td>01/11/2024</td>
+                        <td>Doação em dinheiro</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Maria Oliveira</td>
+                        <td>R$ 200,00</td>
+                        <td>02/11/2024</td>
+                        <td>Doação de roupas</td>
+                    </tr>
+                    <!-- Adicione mais linhas conforme necessário -->
+                </tbody>
+            </table>
+        </section>
+
+    </main>
+
+</body>
+</html>

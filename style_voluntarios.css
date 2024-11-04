@@ -1,0 +1,85 @@
+/* Estilo da tabela de voluntários */
+table {
+    width: 100%;
+    max-width: 1400px;
+    margin: 20px auto;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+th, td {
+    padding: 15px 20px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+    background-color: #ffffff;
+}
+
+th {
+    background-color: #007BFF;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+tr:last-child td {
+    border-bottom: none; /* Remove borda inferior da última linha */
+}
+
+tr:nth-child(even) td {
+    background-color: #f9f9f9; /* Cor de fundo alternada para linhas pares */
+}
+
+tr:hover td {
+    background-color: #e6f2ff; /* Cor de destaque ao passar o mouse */
+    cursor: pointer;
+}
+
+/* Ajuste de borda arredondada para primeira e última células */
+th:first-child, td:first-child {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+th:last-child, td:last-child {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+/* Estilo do contêiner da tabela */
+.table-container {
+    max-height: 400px; /* Altura máxima do contêiner */
+    overflow-y: auto;  /* Adiciona rolagem vertical se necessário */
+    border: 1px solid #ddd; /* Borda do contêiner */
+    border-radius: 8px; /* Bordas arredondadas */
+    margin: 20px auto; /* Margem centralizada */
+    background-color: #ffffff; /* Cor de fundo do contêiner */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+
+/* Botões abaixo da tabela */
+#buttons-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

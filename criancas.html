@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="style_voluntarios.css">
+    <title>Cadastro de Crianças</title>
+</head>
+<body>
+
+    <header>
+        <div id="navbar-container">
+            <div id="navbar">
+                <a href="inicial.html">Home</a>
+                <a href="voluntarios.html">Voluntários</a>
+                <a href="estoque.html">Estoque</a>
+                <a href="doacao.html">Doação</a>
+                <a href="estatistica.html">Estatística</a>
+                <a href="criancas.html">Crianças</a>
+                <a href="configuracoes.html">Configurações</a>
+                <a href="meuperfil.html">Meu perfil</a>
+                <a href="index.html">Sair</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <h2>Crianças Cadastradas</h2>
+        <div class="tabela-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nome</th>
+                        <th>Nome do Pai</th>
+                        <th>Nome da Mãe</th>
+                        <th>CPF</th>
+                        <th>RG</th>
+                        <th>Data de Nascimento</th>
+                        <th>Escolaridade</th>
+                        <th>Endereço</th>
+                        <th>Observações</th>
+                        <th>Saúde</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Maria Silva</td>
+                        <td>José Silva</td>
+                        <td>Ana Silva</td>
+                        <td>123.456.789-00</td>
+                        <td>12.345.678-9</td>
+                        <td>01/01/2015</td>
+                        <td>1ª série</td>
+                        <td>Rua A, 123</td>
+                        <td>Alérgico a pólen</td>
+                        <td>Saudável</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>João Santos</td>
+                        <td>Carlos Santos</td>
+                        <td>Maria Santos</td>
+                        <td>987.654.321-00</td>
+                        <td>98.765.432-1</td>
+                        <td>05/05/2014</td>
+                        <td>2ª série</td>
+                        <td>Avenida B, 456</td>
+                        <td>Sem observações</td>
+                        <td>Saudável</td>
+                    </tr>
+                    <!-- Adicione mais linhas conforme necessário -->
+                </tbody>
+            </table>
+        </div>
+        <div class="button-container">
+            <button onclick="window.location.href='cadastroCriancas.html'">Novo Cadastro</button>
+            <button>Pesquisar</button>
+            <button>Excluir Cadastro</button>
+            <button>Ver Detalhes</button>
+        </div>
+    </main>
+
+</body>
+</html>

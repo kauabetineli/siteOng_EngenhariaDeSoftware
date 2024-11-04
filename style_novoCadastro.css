@@ -1,0 +1,42 @@
+/* Estilo do formulário */
+form {
+    max-width: 600px; /* Largura máxima do formulário */
+    margin: 20px auto; /* Centraliza o formulário */
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #ffffff; /* Cor de fundo do formulário */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+/* Estilo dos grupos de formulário */
+.form-group {
+    margin-bottom: 15px; /* Espaçamento entre os campos */
+}
+
+label {
+    display: block; /* Faz o label ocupar toda a largura */
+    margin-bottom: 5px; /* Espaço entre o label e o campo */
+}
+
+input[type="text"],
+input[type="file"] {
+    width: 100%; /* Largura total */
+    padding: 10px; /* Preenchimento interno */
+    border: 1px solid #ccc; /* Borda */
+    border-radius: 4px; /* Bordas arredondadas */
+    font-size: 16px; /* Tamanho da fonte */
+}
+
+button {
+    padding: 10px 15px; /* Preenchimento do botão */
+    background-color: #007BFF; /* Cor de fundo do botão */
+    color: #ffffff; /* Cor do texto do botão */
+    border: none; /* Remove borda */
+    border-radius: 4px; /* Bordas arredondadas do botão */
+    cursor: pointer; /* Muda o cursor ao passar o mouse */
+    font-size: 16px; /* Tamanho da fonte do botão */
+}
+
+button:hover {
+    background-color: #0056b3; /* Cor do botão ao passar o mouse */
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="style_doacoes.css">
+    <title>Cadastrar Doação</title>
+</head>
+<body>
+
+    <header>
+        <div id="navbar-container">
+            <div id="navbar">
+                <a href="inicial.html">Home</a>
+                <a href="voluntarios.html">Voluntários</a>
+                <a href="estoque.html">Estoque</a>
+                <a href="doacao.html">Doação</a>
+                <a href="estatistica.html">Estatística</a>
+                <a href="criancas.html">Crianças</a>
+                <a href="configuracoes.html">Configurações</a>
+                <a href="meuperfil.html">Meu perfil</a>
+                <a href="index.html">Sair</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <h2>Cadastrar Nova Doação</h2>
+        <form id="doacao-form">
+            <div class="form-group">
+                <label for="nome_doador">Nome do Doador:</label>
+                <input type="text" id="nome_doador" name="nome_doador" required>
+            </div>
+            <div class="form-group">
+                <label for="valor">Valor:</label>
+                <input type="text" id="valor" name="valor" required>
+            </div>
+            <div class="form-group">
+                <label for="data_doacao">Data da Doação:</label>
+                <input type="date" id="data_doacao" name="data_doacao" required>
+            </div>
+            <div class="form-group">
+                <label for="descricao">Descrição:</label>
+                <textarea id="descricao" name="descricao" rows="4"></textarea>
+            </div>
+            <button type="submit">Cadastrar Doação</button>
+        </form>
+    </main>
+
+</body>
+</html>
